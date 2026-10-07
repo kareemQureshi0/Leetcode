@@ -26,7 +26,9 @@ public class BuildArrayFromPermutation
 
         for(int i = 0;i<arr.length;i++)
         {
+
             ans[i] = arr[arr[i]];
+        
         }
         return ans;
     }   
